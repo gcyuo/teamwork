@@ -6,7 +6,7 @@
 ------
 
 1. 在要下载源码的位置,右键Git clone...
-2. 在打开的面板中URl 输入  https://github.com/Oops-qpw/teamwork.git
+2. 在打开的面板中URl 输入  https://github.com/gcyuo/teamwork.git
    然后OK
 3. 等下载完成,会发现本地多了一个teamwork目录.
 4. 打开readme.md文件,修改文件,把自己的名字添加进去.保存
@@ -26,5 +26,3 @@
 
 
 曲朋维
-
-gc
