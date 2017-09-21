@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--视口-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <!--是否显示菜单栏，把这个页面在移动端浏览器打开，在添加到主屏-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!--状态栏的颜色-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!--网页里面有数字，禁止网页上面连串的数字被识别成电话号码.-->
+    <meta content="telephone=no" name="format-detection">
+    <title>剁手商城</title>
+    <!--网页的描述-->
+    <meta name="description" content="剁手商城是中国最大的正品运动鞋、皮鞋网上专卖。剁手商城经营的品牌包括耐克、阿迪达斯、李宁、匡威等国内外知名品牌的篮球鞋,板鞋,休闲鞋,跑步鞋,帆布...">
+    <!--网页关键字.-->
+    <meta name="Keywords" content="剁手商城鞋城 买鞋子 上乐淘 运动鞋 篮球鞋 帆布鞋 跑步鞋 男鞋 女鞋 足球鞋 休闲鞋 凉鞋 户外鞋 布洛克 高跟鞋 单鞋 豆豆鞋 乐福鞋 牛津鞋 凉拖 皮鞋 短靴 长靴 登山鞋 徒步鞋 硫化鞋 训练鞋 溯溪鞋 越野鞋 板鞋 足球鞋 网球鞋 赛车鞋 雪地靴 马丁靴 商务 英伦">
+    <link rel="stylesheet" href="./res/mui/css/mui.min.css">
+    <!--使用自己自带的图标-->
+    <link rel="stylesheet" href="./res/fontAwesome/css/font-awesome.min.css">
+    <!--引入index.css 文件-->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav active">
+    <div class="logo"></div>
+</header>
+<!--轮播图区域-->
+<div class="mui-slider">
+    <div class="mui-slider-group mui-slider-loop">
+        <!--支持循环，需要重复图片节点-->
+        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./images/banner.gif" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./images/banner.gif" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./images/banner.gif" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./images/banner.gif" /></a></div>
+        <div class="mui-slider-item"><a href="#"><img src="./images/banner.gif" /></a></div>
+        <!--支持循环，需要重复图片节点-->
+        <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./images/banner.gif" /></a></div>
+    </div>
+</div>
+<!--分类区域-->
+<div class="cz_category">
+    <ul>
+        <li><a href="javascript:;">特价</a><span>特价</span></li>
+        <li><a href="javascript:;">特色商品</a><span>特价</span></li>
+        <li><a href="javascript:;">秒杀</a><span>特价</span></li>
+        <li><a href="javascript:;">日用百货</a><span>特价</span></li>
+        <li><a href="javascript:;">内衣</a><span>特价</span></li>
+        <li><a href="javascript:;">女装</a><span>特价</span></li>
+        <li><a href="javascript:;">男装</a><span>特价</span></li>
+        <li><a href="javascript:;">童装</a><span>特价</span></li>
+        <li><a href="javascript:;">鞋靴</a><span>特价</span></li>
+        <li><a href="javascript:;">美妆日化</a><span>特价</span></li>
+        <li><a href="javascript:;">食品饮料</a><span>特价</span></li>
+        <li class="gengduo"><a href="javascript:;">更多</a><span>更多</span></li>
+    </ul>
+</div>
+
+<nav class="mui-bar mui-bar-tab cz_bar_bottom">
+    <a id="defaultTab" class="mui-tab-item mui-active" href="#">
+        <span class="mui-icon fa fa-home"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="category.html">
+        <span class="mui-icon fa fa-bars"></span>
+        <span class="mui-tab-label">类目</span>
+    </a>
+    <a class="mui-tab-item" href="#">
+        <span class="mui-icon fa fa-shopping-cart"></span>
+        <span class="mui-badge mui-badge-primary itcast_cart_count"></span>
+        <span class="mui-tab-label">搜索</span>
+    </a>
+    <a class="mui-tab-item" href="#">
+        <span class="mui-icon fa fa-user"></span>
+        <span class="mui-tab-label">购物车</span>
+    </a>
+    <a class="mui-tab-item" href="#">
+        <span class="mui-icon fa fa-user"></span>
+        <span class="mui-tab-label">我的</span>
+    </a>
+</nav>
+
+<script src="./res/mui/js/mui.min.js"></script>
+<!--引入zepto.js-->
+<script src="./res/zepto/zepto.min.js"></script>
+<!--解析数据，引入模板-->
+<script src="./res/artTemplate/template-native.js"></script>
+<!--引入共用的js 代码.-->
+<!--<script src="./js/common.js"></script>-->
+<!--使用我的js 去初始化-->
+<script src="./js/index.js"></script>
+</body>
+</html>
